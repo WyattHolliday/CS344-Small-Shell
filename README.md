@@ -5,9 +5,9 @@ Uploaded small shell portfolio project from my Spring 2023 operating systems cla
 * Lines that start with "#" are comments
 * Variable expansion of "$$" into shell process ID
 * Built in comments:
-- "exit": terminates shell
-- "cd": changes directory
-- "status": prints the exit status or the terminating signal of the foreground process last ran (ingores built in command and prints 0 if none ran)
+-   "exit": terminates shell
+-   "cd": changes directory
+-   "status": prints the exit status or the terminating signal of the foreground process last ran (ingores built in command and prints 0 if none ran)
 * Redirects input from standard input to file by including " < [file_name] " in line
 * Redirects output from standard output to file by including " > [file_name] " in line
 * Can run command in the background allowing user to run commands again while background command is running by including "&" as the last argument
